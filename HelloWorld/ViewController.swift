@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func btnSend(sender: UIButton) {
+        lblHello.text = "Hello, " + txtName.text!
     }
 }
 
